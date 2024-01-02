@@ -37,7 +37,7 @@ export function Introduction() {
                                "Diplomado en Business Analytics (c)",
                                 1200,
                                 "Freelancer",
-                               1200,
+                               1300,
                             ]}
                             wrapper="span"
                             speed={{type: 'keyStrokeDelayInMs', value: 100}}
