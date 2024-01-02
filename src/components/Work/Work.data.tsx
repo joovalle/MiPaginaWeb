@@ -1,18 +1,18 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary,SiPowerbi, SiMicrosoft} from "react-icons/si";
 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
+    title: "DashboardBI",
     description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+      "Creación dashboard en lenguaje DAX",
+    imageUrl: "/PantallazoChinquihue2.png",
     skills: [
       {
-        icon: <SiReact size="40" />
+        icon: <SiMicrosoft size="40" />
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiPowerbi size="40" />
       },
       {
         icon: <SiTestinglibrary size="40" />
