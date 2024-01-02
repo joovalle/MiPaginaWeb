@@ -13,7 +13,7 @@ export function Services() {
 
             <div className="flex flex-col md:flex-row gap-x-5">
                 <div className="flex flex-col text-center md:text-left md:w-[30vw] mb-10">
-                    <motion.h1 className="mb-4 text-4xl"
+                    <motion.h1 className="mb-4 text-2xl"
                         variants={fadeIn('up', 0.5)}
                         initial="hidden"
                         animate="show"
