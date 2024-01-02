@@ -33,3 +33,6 @@ body {
   .swiper-pagination-bullet {
   background-color: #f5741c;
 }
+max-w-sm.mb-10.text-xl.md\:max-w-2xl.md\:mx-0.md\:mb-16.md\:text-xl {
+  text-align: justify;
+}
