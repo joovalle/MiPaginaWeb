@@ -1,4 +1,6 @@
+
 import { fadeIn } from '@/utils/motionTransitions'
+import { TypeAnimation } from "react-type-animation"
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -23,9 +25,26 @@ export function Introduction() {
                         exit="hidden"
                     >
                         <h1 className="mb-5 text-2xl leading-tight md:mb-10">Jordán Ovalle Labrín,  <br />
-                            <span className="text-secondary">Ingeniero Civil Industrial</span></h1>
+                            <span className="text-secondary">{" "}
                             
+                            <TypeAnimation
                             
+                            sequence={[
+                                "Ingeniero Civil Industrial",
+                                1200,
+                                "Magíster en Gestión Industrial",
+                               1200,
+                               "Diplomado en Business Analytics (c)",
+                                1200,
+                                "Freelancer",
+                               1200,
+                            ]}
+                            wrapper="span"
+                            speed={{type: 'keyStrokeDelayInMs', value: 100}}
+                            deletionSpeed={10}
+                            repeat={Infinity}
+                            /></span></h1>
+                                         
                         <p className="max-w-sm mb-10 text-sm md:max-w-2xl md:mx-0 md:mb-16 md:text-xl ">
                         Apasionado por el diseño web, el análisis y visualización de datos. Comprometido a ofrecer soluciones digitales innovadoras y efectivas que impulsen la mejora continua a través de la combinación única de ingeniería y tecnología
                         </p>
