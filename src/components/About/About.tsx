@@ -20,7 +20,7 @@ export function About() {
                 transition={motionTransitionsAbout.transition}
             >
                 <h1 className="mb-6 md:text-2xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1> {/*cambiar aqui*/}
-                <p className="justify-text">Soy Ingeniero Civil Industrial, apasionado por el mundo del diseño web y la potencia del análisis y visualización de datos. Combino mi formación en ingeniería con un interés profundo en la creación de experiencias digitales. Disfruto explorando datos y transformándolos en historias visuales significativas que comuniquen información de manera clara y atractiva. </p>
+                <p className="text-secondary">Soy Ingeniero Civil Industrial, apasionado por el mundo del diseño web y la potencia del análisis y visualización de datos. Combino mi formación en ingeniería con un interés profundo en la creación de experiencias digitales. Disfruto explorando datos y transformándolos en historias visuales significativas que comuniquen información de manera clara y atractiva. </p>
 
                 <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
