@@ -3,7 +3,7 @@ import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary,SiPower
 export const cardContent = [
   {
     id: 0,
-    title: "DashboardBI",
+    title: "Dashboard BI",
     description:
       "Creación dashboard en lenguaje DAX",
     imageUrl: "/PantallazoChinquihue2.png",
@@ -21,7 +21,7 @@ export const cardContent = [
   },
   {
     id: 1,
-    title: "Portfolio React",
+    title: "Portafolio Next.js",
     description:
       "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
     imageUrl: "/work-2.jpeg",

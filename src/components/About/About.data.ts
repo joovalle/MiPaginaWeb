@@ -36,17 +36,14 @@ export const dataAboutSkills = [
     skills: [
       {
         title: "C++ / VBA / Python",
-        date: "2009 / 2023",
        
       },
       {
-        title: "Statgraphics / Eviews / Power BI ",
-        date: "2009 - 2023",
+        title: "Statgraphics / Eviews / Power BI / SPSS",
         
       },
       {
-        title: "HTML / CSS / JS / React / Node JS",
-        date: "2023",
+        title: "HTML / CSS / JS / React / Node.js", 
         
       },
     ],
