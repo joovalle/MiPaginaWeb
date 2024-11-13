@@ -46,7 +46,7 @@ export function Introduction() {
                             /></span></h1>
                                          
                         <p className="max-w-sm mb-10 text-sm md:max-w-2xl md:mx-0 md:mb-16 md:text-xl ">
-                        Apasionado por el diseño web, el análisis y visualización de datos. Comprometido a ofrecer soluciones digitales innovadoras y efectivas que impulsen la mejora continua a través de la combinación única de ingeniería y tecnología
+                        Disfruto de la tecnología, aprender cosas nuevas, me gusta el análisis y visualización de datos, la inteligencia artificial y su aplicación en distintas áreas
                         </p>
 
                         <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row">
