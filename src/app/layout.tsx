@@ -39,6 +39,6 @@ export default function RootLayout({
   })(document, 'script');
 </script>
       </body>
-    </html>
+    </div>
   )
 }
