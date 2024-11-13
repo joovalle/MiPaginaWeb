@@ -20,25 +20,25 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div lang="es">
+    <html lang="es">
       <body className={prosto.className}>
         <Navbar />
         <Header />
         {children}
         <script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
+        (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
         window.voiceflow.chat.load({
           verify: { projectID: '673379fa9d61d6e3b87f36c7' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
+                      });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+        </script>
       </body>
-    </div>
+    </html>
   )
 }
