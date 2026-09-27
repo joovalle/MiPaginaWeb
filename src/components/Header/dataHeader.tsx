@@ -1,4 +1,4 @@
-import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine } from "react-icons/ri";
+import { RiInstagramLine, RiYoutubeLine, RiPinterestLine, RiTwitterXFill } from "react-icons/ri";
 
 export const socialNetworks = [
   {
@@ -12,11 +12,6 @@ export const socialNetworks = [
     src: "https://youtube.com/@jordanovalle633",
   },
   {
-    name: "tiktok",
-    logo: <RiTiktokLine size="40" />,
-    src: "#!",
-  },
-  {
     name: "pinterest",
     logo: <RiPinterestLine size="40" />,
     src: "https://www.pinterest.cl/jordanovallelabrin/",
@@ -25,10 +20,5 @@ export const socialNetworks = [
     name: "twitter",
     logo: <RiTwitterXFill size="40" />,
     src: "https://twitter.com/JordanRuben_",
-  },
-  {
-    name: "behance",
-    logo: <RiBehanceLine size="40" />,
-    src: "#!",
   },
 ];
