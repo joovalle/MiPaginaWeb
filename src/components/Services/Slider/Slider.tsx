@@ -25,14 +25,15 @@ export function Slider() {
                 }
             }}
             freeMode={true}
+            autoHeight={true}
             pagination={{
                 clickable: true
             }}
             modules={[Pagination]}
-            className="h-[240px] md:h-[340px] w-[270px] md:w-[550px]">
+            className="w-[270px] md:w-[550px]">
             {serviceData.map((item, index) => (
                 <SwiperSlide key={index}>
-                    <div className="flex px-6 py-8 h-[200px]  md:h-auto rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 ">
+                    <div className="flex px-6 py-8 min-h-[200px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 ">
                         <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
                         <div>
                             <h3>{item.title}</h3>

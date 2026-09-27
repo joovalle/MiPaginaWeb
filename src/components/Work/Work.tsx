@@ -28,8 +28,8 @@ export function Work() {
         <div className="h-screen">
             <AvatarWorks />
             <Circle />
-            <div className="grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
-                <div>
+            <div className="grid items-center justify-items-center pb-32 md:min-h-screen mt-28 md:mt-0 md:pr-28 md:justify-items-stretch md:grid-cols-[minmax(0,1fr)]">
+                <div className="md:w-full md:min-w-0">
                     <motion.h1
                         variants={fadeIn('left', 0.5)}
                         initial="hidden"
@@ -39,7 +39,7 @@ export function Work() {
                     >Mis últimos  <span className="text-secondary">trabajos realizados.</span>
                     </motion.h1>
                     <motion.div
-                        className="flex flex-col items-center h-full gap-5 px-2 md:flex-row"
+                        className="flex flex-col items-center h-full gap-5 px-2 md:flex-row md:w-full md:min-w-0 md:overflow-x-auto md:pb-4"
                         variants={fadeIn('up', 0.5)}
                         initial="hidden"
                         animate="show"
