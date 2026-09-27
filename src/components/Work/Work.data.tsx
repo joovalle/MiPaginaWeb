@@ -6,7 +6,7 @@ export const cardContent = [
     title: "Dashboard BI",
     description:
       "Creación dashboard en lenguaje DAX",
-    imageUrl: "/PantallazoChinquihue2.png",
+    imageUrl: "pantallazoChinquihue2.png",
     skills: [
       {
         icon: <SiMicrosoft size="40" />
@@ -24,7 +24,7 @@ export const cardContent = [
     title: "Portafolio Next.js",
     description:
       "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-2.jpeg",
+    imageUrl: "work-2.jpeg",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -42,7 +42,7 @@ export const cardContent = [
     title: "Strapi",
     description:
       "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-3.jpeg",
+    imageUrl: "work-3.jpeg",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -60,7 +60,7 @@ export const cardContent = [
     title: "Prestashop",
     description:
       "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-4.jpeg",
+    imageUrl: "work-4.jpeg",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -78,7 +78,7 @@ export const cardContent = [
     title: "E-Commerce React",
     description:
       "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-5.jpeg",
+    imageUrl: "work-5.jpeg",
     skills: [
       {
         icon: <SiNextdotjs size="40" />

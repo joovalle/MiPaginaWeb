@@ -15,8 +15,8 @@ export function Header() {
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-3 md:gap-5">
-                        {socialNetworks.map(({ logo, src }) => (
-                            <Link key={src} href={src} target="_blank" className="transition-all duration-300 hover:text-secondary">
+                        {socialNetworks.map(({ name, logo, src }) => (
+                            <Link key={name} href={src} target="_blank" className="transition-all duration-300 hover:text-secondary">
                                 {logo}
                             </Link>
                         ))}
